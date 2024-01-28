@@ -33,5 +33,3 @@ Route::get('/contact', [ContactController::class, 'show']);
 
 
 
-//profile
-Route::get('profile',[UsersController::class,'profile'])->
