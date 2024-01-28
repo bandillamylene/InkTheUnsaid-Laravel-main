@@ -30,3 +30,8 @@ Route::get('/search',[BlogsController::class, 'search']);
 Route::get('/blogs/{blog}',[BlogsController::class, 'show']);
 //show contact us
 Route::get('/contact', [ContactController::class, 'show']);
+
+
+
+//profile
+Route::get('profile',[UsersController::class,'profile'])->
